@@ -124,6 +124,7 @@ public class Principal extends javax.swing.JFrame {
         return resultado;        
     }    
     
+ 
     
     
     /** This method is called from within the constructor to
