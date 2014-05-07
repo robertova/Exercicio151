@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import net.proteanit.sql.DbUtils;
+
 
 /**
  *
@@ -36,7 +36,7 @@ public class Principal extends javax.swing.JFrame {
         if (conectar() == 1) {
             lerEnlaces();   
         } else {
-            jTextArea1.append("non hai conexion coa Base de datos\n");
+            jTextArea1.append("Non hai conexion coa Base de datos\n");
         }
     }
 
@@ -292,8 +292,7 @@ private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FI
         jTextField3.setEnabled(true);
         jLabel4.setEnabled(true);
         jCheckBox1.setEnabled(true);
-        jButton1.setEnabled(true);
-        
+        jButton1.setEnabled(true);      
         lerEnlaces(exercicio151.Usuario.Existe(user.getLogin(),user.getPass(),con));
     } else {
         lerEnlaces();
